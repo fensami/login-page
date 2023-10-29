@@ -14,14 +14,12 @@ function LoginPage() {
 export default LoginPage;
 
 const Container = styled.div`
-font-family: Arial;
+  font-family: Arial;
 
   display: flex;
   gap: 90px;
   padding: 0 100px;
-  align-items: center;
   justify-content: flex-center;
-  /* padding : 100px 60px; */
   margin: 100px 0;
   @media (max-width: 768px) {
     flex-direction: column;
@@ -31,7 +29,6 @@ font-family: Arial;
 `;
 
 const ContainerImage = styled.img`
-
   width: 400px;
   height: 475px;
   @media (max-width: 768px) {

@@ -4,12 +4,7 @@ const AgreeTerms = () => {
   return (
     <>
       <CheckboxLabel>
-        <RememberMeCheckbox
-          type="checkbox"
-          id="rememberMe"
-          // checked={rememberMe}
-          // onChange={handleRememberMe}
-        />
+        <RememberMeCheckbox type="checkbox" id="rememberMe" />
         Agree to <TermsConditions> Terms & Conditions</TermsConditions>
       </CheckboxLabel>
     </>
@@ -29,8 +24,8 @@ const RememberMeCheckbox = styled.input`
 `;
 
 const TermsConditions = styled.span`
-  color: #F78719;
-font-size: 18px;
-font-weight: 400;
-text-decoration-line: underline;
-`
+  color: #f78719;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration-line: underline;
+`;

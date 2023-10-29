@@ -3,11 +3,10 @@ import LoginFormGroup from "./LoginFormGroup";
 const LoginForm = () => {
   return (
     <>
-    <Form>
-      <FormTitle>Login</FormTitle>
-
-      <LoginFormGroup></LoginFormGroup>
-    </Form>
+      <Form>
+        <FormTitle>Login</FormTitle>
+        <LoginFormGroup></LoginFormGroup>
+      </Form>
     </>
   );
 };
@@ -17,15 +16,8 @@ export default LoginForm;
 const Form = styled.form`
   border-radius: 12px;
   background: #fff;
-  box-shadow: 0px 5px 40px 0px rgba(0, 0, 0, 0.10);
-  /* width: 100%; */
-  /* height: 100vh; */
+  box-shadow: 0px 5px 40px 0px rgba(0, 0, 0, 0.1);
   padding: 0 20px;
-
-  @media (max-width: 768px) {
-/* padding: 0%; */
-/* width: 100vh; */
-}
 `;
 
 const FormTitle = styled.h1`
@@ -34,7 +26,3 @@ const FormTitle = styled.h1`
   font-weight: 700;
   margin-top: 40px;
 `;
-
-
-
-
